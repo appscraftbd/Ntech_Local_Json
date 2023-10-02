@@ -23,13 +23,45 @@ Step 4. Library Java code
 	Localjson localjson = new Localjson();
         String j_response = localjson.loadJSONFromAsset(this,"Your_jsonFile.json");
 
-
-        try {
-            JSONObject jsonObject = new JSONObject(j_response);
+//      try {
+//          JSONObject jsonObject = new JSONObject(j_response);
+//                String name = jsonObject.getString("name");
+//                String number = jsonObject.getString("number");
+//                //
+//                //
+//                //
+//                //
+//                //others
+//
 //        } catch (JSONException e) {
 //            throw new RuntimeException(e);
 //        }
-//         যে ভাবে  JSONArray , JSONObject লিখতে হয় ঠিক একই ভাবে লিখতে হবে।
+
+//////////////////////// or //////////////////
+
+//        try {
+//            JSONArray jsonArray = new JSONArray(j_response);
+//
+//            for (int i=0; i<jsonArray.length(); i++) {
+//                
+//                JSONObject jsonObject = jsonArray.getJSONObject(i);
+//                String name = jsonObject.getString("name");
+//                String number = jsonObject.getString("number");
+//                //
+//                //
+//                //
+//                //
+//                //others
+//
+//            }
+//        } catch (JSONException e) {
+//            throw new RuntimeException(e);
+//        }
+
+
+
+
+///////যে ভাবে  JSONArray , JSONObject লিখতে হয় ঠিক একই ভাবে লিখতে হবে।///////
         
 
 
