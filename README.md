@@ -1,8 +1,6 @@
-
-
-
 # Ntech_Local_Json
-simple Ntech Local Json<br>
+<img src="https://raw.githubusercontent.com/appscraftbd/appscraftbd/main/github.png">
+<h2>Parse local JSON file in Android</h2>
 Step 1. Create Assets Folder And upload your .json File or create json file<br>
 Step 2. Add the JitPack repository to your build file 
 
